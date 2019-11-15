@@ -1,16 +1,20 @@
-#Project Name
+Project Name
+===
 
-##Installation
+Installation
+---
 
 Run `yarn` to install dependencies.
 
-##Available Scripts
+Available Scripts
+---
 
 * `yarn start`
 * `yarn start:watch`
 * `yarn build`
 * `yarn prod`
 
-##Environment variables
+Environment variables
+---
 
 Variables defined in `.env` will be available in `process.env.%variable%`
