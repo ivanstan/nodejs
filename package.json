@@ -6,13 +6,13 @@
   "scripts": {
     "start": "node --inspect=5858 -r ts-node/register -r dotenv/config src/index.ts",
     "start:watch": "nodemon",
-    "build": "tsc"
+    "build": "tsc",
+    "prod": "node -r dotenv/config build/index.js"
   },
   "author": "Ivan Stanojevic",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "geojson-vt": "^3.2.1"
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.7",
